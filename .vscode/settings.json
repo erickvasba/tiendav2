@@ -1,0 +1,45 @@
+{
+    "python.pythonPath": "/home/erick/Documentos/Django37/py37-venv/bin/python",
+    "editor.formatOnSave": true,
+    "python.linting.pycodestyleEnabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintPath": "pylint",
+    "emmet.includeLanguages": {
+      "django-html": "html"
+    },
+    "css.fileExtensions": [
+      "css",
+      "scss"
+    ],
+    //config para SQLITE explorer
+    "sqlite.sqlite3": "/usr/bin/sqlite3",
+    "sqlite.logLevel": "DEBUG",
+    "sqlite.recordsPerPage": 50,
+    "sqlite.databaseExtensions": [
+      "db",
+      "db3",
+      "sdb",
+      "s3db",
+      "sqlite",
+      "sqlite3"
+    ],
+    "python.linting.pylintArgs": [
+      "W0614",
+      "--load-plugins",
+      "pylint_django"
+    ],
+    "python.venvPath": "${workspaceFolder}/env/bin/python3",
+    "python.linting.pycodestyleArgs": [
+      "--ignore=E501"
+    ],
+    "files.exclude": {
+      "**/*.pyc": true
+    },
+    "files.associations": {
+      "**/*.html": "html",
+      "**/templates/**/*.html": "django-html",
+      "**/templates/**/*": "django-txt",
+      "**/requirements{/**,*}.{txt,in}": "pip-requirements"
+    },
+    "[django-html]": {},
+  }
